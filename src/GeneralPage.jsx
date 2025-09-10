@@ -68,7 +68,7 @@ export default function GeneralPage({ onSwitch }) {
       <div className="main">
         <div className="stage">
           <div className="title">
-            <p>Pourquoi vous avez besoin d'un </p>
+            <p>Les avantages de recruter un </p>
             <h1 className="title-general">Alternant</h1>
           </div>
           {BUTTONS.map(({ id, className }) => (

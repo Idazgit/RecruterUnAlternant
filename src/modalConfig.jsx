@@ -28,7 +28,7 @@ export const MODALS = {
           formation et l’intégration des jeunes.
         </p>
         <p>
-          En 2025, cette aide peut atteindre jusqu’à 6 000 € pour la première
+          En 2025, cette aide peut atteindre jusqu’à 5 000 € pour la première
           année du contrat, quel que soit l’âge de l’alternant. Elle est versée
           automatiquement par l’Agence de services et de paiement (ASP).
         </p>
