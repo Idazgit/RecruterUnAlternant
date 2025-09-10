@@ -1,0 +1,246 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.button:nth-child(1) {
+  animation-delay: 0s;
+}
+.button:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.button:nth-child(3) {
+  animation-delay: 1s;
+}
+.button:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.button:nth-child(5) {
+  animation-delay: 2s;
+}
+.button:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.button {
+  font-size: 1.3rem;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  background-color: var(--button-color);
+  cursor: pointer;
+  animation: float 3s ease-in-out infinite;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/*button general*/
+.btn-general {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.btn-general:hover {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.why-me {
+  background: linear-gradient(var(--button-color), var(--button-color))
+      padding-box,
+    linear-gradient(90deg, rgba(180, 58, 115, 1), rgba(252, 176, 69, 1))
+      border-box;
+  border: 1px solid transparent;
+  animation: none;
+  position: static;
+}
+.why-me:hover {
+  border: 1px solid transparent;
+}
+
+.regard {
+  top: 12vh;
+  left: 25vw;
+}
+
+.etat {
+  top: 12vh;
+  right: 25vw;
+}
+
+.capacity {
+  right: 13vw;
+}
+
+.employer {
+  bottom: 10vh;
+  right: 25vw;
+}
+
+.transmission {
+  bottom: 15vh;
+  left: 27vw;
+}
+
+.mastered {
+  left: 15vw;
+}
+
+/*button perso*/
+.btn-perso {
+  border: 1px solid var(--orange-color);
+}
+.study {
+  position: static;
+  border: 1px solid var(--title-general-color);
+  animation: none;
+}
+
+.contact {
+  top: 7vh;
+  left: 28vw;
+}
+
+.objectives {
+  top: 12vh;
+  right: 25vw;
+}
+
+.portfolio {
+  right: 15vw;
+}
+
+.values {
+  right: 22vw;
+  bottom: 10vh;
+}
+
+.projects {
+  left: 23vw;
+  bottom: 16vh;
+}
+
+.sport {
+  left: 17vw;
+  top: 36vh;
+}
+
+.Cv {
+  bottom: 8vh;
+}
+
+/*Responsive page general*/
+@media (max-width: 1000px) {
+  .regard {
+    top: 10vh;
+    left: 35vw;
+    position: fixed;
+  }
+  .etat {
+    top: 20vh;
+    right: 40vw;
+    position: fixed;
+  }
+  .capacity {
+    right: 40vw;
+    top: 30vh;
+    position: fixed;
+  }
+  .employer {
+    right: 35vw;
+    bottom: 5vh;
+    position: fixed;
+  }
+  .transmission {
+    left: 40vw;
+    position: fixed;
+  }
+  .mastered {
+    left: 40vw;
+    bottom: 25vh;
+    position: fixed;
+  }
+  /*Responsive page perso*/
+  .objectives {
+    top: 10vh;
+    right: 40vw;
+    position: fixed;
+  }
+  .portfolio {
+    right: 43vw;
+    top: 32vh;
+    position: fixed;
+  }
+  .contact {
+    top: 20vh;
+    left: 42vw;
+    position: fixed;
+  }
+  .sport {
+    left: 43vw;
+    top: 74vh;
+    position: fixed;
+  }
+  .Cv {
+    bottom: 28vh;
+    position: fixed;
+  }
+  .projects {
+    left: 42vw;
+    bottom: 13vh;
+    position: fixed;
+  }
+  .values {
+    right: 40vw;
+    bottom: 4vh;
+    position: fixed;
+  }
+}
+
+@media (max-width: 480px) {
+  .regard {
+    left: 28vw;
+    top: 12vh;
+  }
+  .etat {
+    right: 24vw;
+  }
+  .capacity {
+    right: 23vw;
+  }
+  .employer {
+    right: 21vw;
+  }
+  .transmission {
+    left: 30vw;
+    bottom: 13vh;
+  }
+  .mastered {
+    left: 30vw;
+    bottom: 20vh;
+  }
+  .objectives {
+    right: 33vw;
+    top: 12vh;
+  }
+  .contact {
+    left: 33vw;
+    top: 22vh;
+  }
+  .portfolio {
+    right: 36vw;
+  }
+  .sport {
+    left: 35vw;
+  }
+  .projects {
+    left: 32vw;
+    bottom: 12vh;
+  }
+  .values {
+    right: 31vw;
+  }
+}

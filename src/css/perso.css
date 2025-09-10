@@ -1,0 +1,16 @@
+.title-perso {
+  font-size: 6rem;
+  background: var(--title-perso-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.title-perso-last {
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: var(--black-color);
+  color: var(--black-color);
+  font-size: 4rem;
+  font-weight: normal;
+}

@@ -1,0 +1,5 @@
+.title-general {
+  font-size: 6rem;
+  text-align: center;
+  color: var(--title-general-color);
+}

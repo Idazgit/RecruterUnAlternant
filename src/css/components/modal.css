@@ -1,0 +1,77 @@
+.bg-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.container-modal {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 30vw;
+  max-height: 90vh;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.title-modal {
+  font-size: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+}
+.text-modal {
+  color: #222222;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cv-download,
+.mail-contact,
+.linkedin-contact {
+  color: var(--black-color);
+}
+@media (max-width: 1600px) {
+  .container-modal {
+    width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .container-modal {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .container-modal {
+    width: 80%;
+  }
+  .text-modal {
+    font-size: 1.1rem;
+  }
+  .title-modal {
+    font-size: 1.8rem;
+  }
+}

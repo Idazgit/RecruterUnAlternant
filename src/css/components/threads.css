@@ -1,0 +1,6 @@
+.threads-container {
+  position: absolute;
+  width: 100vw;
+  height: 99.5vh;
+  z-index: -1;
+}
