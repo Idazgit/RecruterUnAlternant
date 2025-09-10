@@ -53,19 +53,20 @@ export default function GeneralPage({ onSwitch }) {
             href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Voir mon profil LinkedIn (s’ouvre dans un nouvel onglet)"
           >
             <FaLinkedin
               aria-hidden="true"
               focusable="false"
               className="FaLinkedin"
-              aria-label="Voir mon profil LinkedIn"
             />
           </a>
+
           <a
             href="https://github.com/Idazgit"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Voir mon profil GitHub"
+            aria-label="Voir mon profil GitHub (s’ouvre dans un nouvel onglet)"
           >
             <FaGithubSquare
               aria-hidden="true"
