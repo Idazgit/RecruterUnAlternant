@@ -54,14 +54,24 @@ export default function GeneralPage({ onSwitch }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="FaLinkedin" />
+            <FaLinkedin
+              aria-hidden="true"
+              focusable="false"
+              className="FaLinkedin"
+              aria-label="Voir mon profil LinkedIn"
+            />
           </a>
           <a
             href="https://github.com/Idazgit"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Voir mon profil GitHub"
           >
-            <FaGithubSquare className="FaGithubSquare" />
+            <FaGithubSquare
+              aria-hidden="true"
+              focusable="false"
+              className="FaGithubSquare"
+            />
           </a>
         </div>
       </header>
