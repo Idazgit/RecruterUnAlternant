@@ -243,4 +243,11 @@
   .values {
     right: 31vw;
   }
+
+  .why-me {
+    font-size: 1rem;
+  }
+  .study {
+    font-size: 0.7rem;
+  }
 }

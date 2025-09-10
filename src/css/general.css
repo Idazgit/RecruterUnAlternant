@@ -3,3 +3,8 @@
   text-align: center;
   color: var(--title-general-color);
 }
+@media (max-width: 400px) {
+  .title-general {
+    font-size: 3.5rem;
+  }
+}
