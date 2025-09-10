@@ -33,10 +33,12 @@ Le bouton **Portfolio** renvoie actuellement vers mon [profil LinkedIn](https://
 ## 📂 Installation & Lancement
 
 1. Clonez le dépôt :
+
    ```bash
    git clone https://github.com/Idazgit/RecruterUnAlternant.git
-   Allez dans le dossier :
+
    ```
+
 2. Allez dans le dossier :
    ```bash
    cd RecruterUnAlternant
