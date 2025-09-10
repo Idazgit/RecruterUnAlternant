@@ -38,6 +38,8 @@
   animation: float 3s ease-in-out infinite;
   border-radius: 0.5rem;
   text-align: center;
+  -webkit-text-fill-color: var(--black-color);
+  color: var(--black-color);
 }
 
 /*button general*/
