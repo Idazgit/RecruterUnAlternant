@@ -50,17 +50,27 @@ export default function PersonalPage({ onSwitch }) {
         <div className="social">
           <a
             href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
+            aria-label="Voir mon profil LinkedIn (nouvelle fenêtre)"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="FaLinkedin" />
+            <FaLinkedin
+              className="FaLinkedin"
+              aria-hidden="true"
+              focusable="false"
+            />
           </a>
           <a
             href="https://github.com/Idazgit"
+            aria-label="Voir mon profil GitHub (nouvelle fenêtre)"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithubSquare className="FaGithubSquare" />
+            <FaGithubSquare
+              className="FaGithubSquare"
+              aria-hidden="true"
+              focusable="false"
+            />
           </a>
         </div>
       </header>
@@ -77,6 +87,7 @@ export default function PersonalPage({ onSwitch }) {
           </div>
           <a
             href="https://www.linkedin.com/in/tristan-couteux-a79a23349//"
+            aria-label="Voir mon profil LinkedIn (nouvelle fenêtre)"
             target="_blank"
             rel="noopener noreferrer"
           >
