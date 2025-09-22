@@ -93,6 +93,7 @@ export default function PersonalPage({ onSwitch }) {
           >
             <Button className="btn-perso portfolio" value={"Portfolio 💻"} />
           </a>
+
           {BUTTONS.map(({ id, className }) => (
             <Button
               key={id}
@@ -101,6 +102,7 @@ export default function PersonalPage({ onSwitch }) {
               onClick={() => setOpenModal(id)}
             />
           ))}
+
           {openModal && (
             <Modal
               title={MODALSPERSO[openModal].title}

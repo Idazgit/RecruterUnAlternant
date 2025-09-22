@@ -14,11 +14,17 @@
   font-size: 4rem;
   font-weight: normal;
 }
+@media (max-width: 1024px) {
+  .title-perso,
+  .title-perso-last {
+    font-size: 5rem;
+  }
+}
 @media (max-width: 400px) {
   .title-perso {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .title-perso-last {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }

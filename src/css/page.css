@@ -92,6 +92,10 @@ header {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .stage {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
