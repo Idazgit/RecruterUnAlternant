@@ -47,31 +47,34 @@ export default function PersonalPage({ onSwitch }) {
           value={"Besoin d'un Alternant 🎓"}
           className="btn-perso study"
         />
-        <div className="social">
-          <a
-            href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
-            aria-label="Voir mon profil LinkedIn (nouvelle fenêtre)"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin
-              className="FaLinkedin"
-              aria-hidden="true"
-              focusable="false"
-            />
-          </a>
-          <a
-            href="https://github.com/Idazgit"
-            aria-label="Voir mon profil GitHub (nouvelle fenêtre)"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithubSquare
-              className="FaGithubSquare"
-              aria-hidden="true"
-              focusable="false"
-            />
-          </a>
+        <div className="divleft">
+          <div className="name">Tristan Couteux</div>{" "}
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
+              aria-label="Voir mon profil LinkedIn (nouvelle fenêtre)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin
+                className="FaLinkedin"
+                aria-hidden="true"
+                focusable="false"
+              />
+            </a>
+            <a
+              href="https://github.com/Idazgit"
+              aria-label="Voir mon profil GitHub (nouvelle fenêtre)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare
+                className="FaGithubSquare"
+                aria-hidden="true"
+                focusable="false"
+              />
+            </a>
+          </div>
         </div>
       </header>
       <div className="main">

@@ -48,32 +48,35 @@ export default function GeneralPage({ onSwitch }) {
           value={"Pourquoi moi ? 🙋‍♂️"}
           className="btn-general why-me"
         />
-        <div className="social">
-          <a
-            href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Voir mon profil LinkedIn (s’ouvre dans un nouvel onglet)"
-          >
-            <FaLinkedin
-              aria-hidden="true"
-              focusable="false"
-              className="FaLinkedin"
-            />
-          </a>
+        <div className="divleft">
+          <div className="name">Tristan Couteux</div>
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/tristan-couteux-a79a23349/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Voir mon profil LinkedIn (s’ouvre dans un nouvel onglet)"
+            >
+              <FaLinkedin
+                aria-hidden="true"
+                focusable="false"
+                className="FaLinkedin"
+              />
+            </a>
 
-          <a
-            href="https://github.com/Idazgit"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Voir mon profil GitHub (s’ouvre dans un nouvel onglet)"
-          >
-            <FaGithubSquare
-              aria-hidden="true"
-              focusable="false"
-              className="FaGithubSquare"
-            />
-          </a>
+            <a
+              href="https://github.com/Idazgit"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Voir mon profil GitHub (s’ouvre dans un nouvel onglet)"
+            >
+              <FaGithubSquare
+                aria-hidden="true"
+                focusable="false"
+                className="FaGithubSquare"
+              />
+            </a>
+          </div>
         </div>
       </header>
       <div className="main">

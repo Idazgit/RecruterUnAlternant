@@ -140,4 +140,14 @@
     animation: none;
     position: static;
   }
+  .why-me,
+  .study {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .study {
+    font-size: 1rem;
+  }
 }
