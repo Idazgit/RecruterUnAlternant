@@ -42,6 +42,7 @@
   -webkit-text-fill-color: var(--black-color);
   color: var(--black-color);
 }
+
 .text-modal {
   color: #222222;
   font-size: 1.5rem;
@@ -56,16 +57,27 @@
 .linkedin-contact {
   color: var(--black-color);
 }
+
+.cv-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 210 / 297;
+  height: auto;
+  max-height: calc(90vh - 10rem);
+}
+
 @media (max-width: 1600px) {
   .container-modal {
     width: 50%;
   }
 }
+
 @media (max-width: 1000px) {
   .container-modal {
     width: 70%;
   }
 }
+
 @media (max-width: 768px) {
   .container-modal {
     width: 80%;

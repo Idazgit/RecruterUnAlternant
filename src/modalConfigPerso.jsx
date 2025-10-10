@@ -99,9 +99,8 @@ export const MODALSPERSO = {
       <>
         <p>Vous pouvez consulter mon CV ci-dessous :</p>
         <iframe
-          src="/CV.pdf"
-          width="100%"
-          height="600vh"
+          className="cv-frame"
+          src="/CV.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=page-fit"
           style={{ border: "none" }}
         />
         <p>
