@@ -63,7 +63,7 @@
   width: 100%;
   aspect-ratio: 210 / 297;
   height: auto;
-  max-height: calc(90vh - 10rem);
+  max-height: calc(85vh - 10rem);
 }
 
 @media (max-width: 1600px) {
